@@ -69,6 +69,7 @@ def widget():
       border-radius: 8px;
       padding: 10px 20px;
       cursor: pointer;
+      font-size: 15px;
     }
     button:hover { background-color: #d62828; }
     #result {
