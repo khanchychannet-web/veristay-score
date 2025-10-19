@@ -82,9 +82,6 @@ def widget():
       <button id="checkBtn">Check</button>
     </div>
     <div id="out"></div>
-    <div class="row2">
-      <a id="fullReport" class="paylink" href="#" target="_blank" rel="noopener">Get Full Report (€2)</a>
-    </div>
     <p class="muted">Disclaimer: this is a risk indicator, not legal advice.</p>
   </div>
 <script>
@@ -94,10 +91,6 @@ const $btn = document.getElementById('checkBtn');
 const $out = document.getElementById('out');
 const $full = document.getElementById('fullReport');
 
-// 👉 встав сюди свій лінк на оплату (Stripe або Gumroad)
-const PAY_URL = "https://gumroad.com/l/veristay-full-report"; 
-
-$full.href = PAY_URL;
 
 async function check() {
   const link = $url.value.trim();
