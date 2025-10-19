@@ -106,8 +106,8 @@ def widget():
         btn.textContent = 'Check Safety (€3)';
       }
     }
-  </script>
-</body>
+      </script>
+  </body>
 </html>
 """
     return html, 200, {"Content-Type": "text/html; charset=utf-8"}
