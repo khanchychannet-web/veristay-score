@@ -106,7 +106,7 @@ def widget():
         btn.textContent = 'Check Safety (€3)';
       }
     }
-      </script>
+         </script>
   </body>
 </html>
 """
